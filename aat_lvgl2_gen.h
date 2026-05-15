@@ -1,9 +1,9 @@
 /**
- * @file AAT_LVGL_gen.h
+ * @file aat_lvgl2_gen.h
  */
 
-#ifndef AAT_LVGL_GEN_H
-#define AAT_LVGL_GEN_H
+#ifndef AAT_LVGL2_GEN_H
+#define AAT_LVGL2_GEN_H
 
 #ifndef UI_SUBJECT_STRING_LENGTH
 #define UI_SUBJECT_STRING_LENGTH 256
@@ -73,7 +73,7 @@ extern lv_font_t * font_medium;
  * Initialize the component library
  */
 
-void AAT_LVGL_init_gen(const char * asset_path);
+void aat_lvgl2_init_gen(const char * asset_path);
 
 /**********************
  *      MACROS
@@ -90,4 +90,4 @@ void AAT_LVGL_init_gen(const char * asset_path);
 } /*extern "C"*/
 #endif
 
-#endif /*AAT_LVGL_GEN_H*/
+#endif /*AAT_LVGL2_GEN_H*/

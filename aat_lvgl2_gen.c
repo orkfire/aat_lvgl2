@@ -1,12 +1,12 @@
 /**
- * @file AAT_LVGL_gen.c
+ * @file aat_lvgl2_gen.c
  */
 
 /*********************
  *      INCLUDES
  *********************/
 
-#include "AAT_LVGL_gen.h"
+#include "aat_lvgl2_gen.h"
 
 #if LV_USE_XML
 #endif /* LV_USE_XML */
@@ -66,7 +66,7 @@ extern lv_font_t font_medium_data;
  *   GLOBAL FUNCTIONS
  **********************/
 
-void AAT_LVGL_init_gen(const char * asset_path)
+void aat_lvgl2_init_gen(const char * asset_path)
 {
     char buf[256];
 

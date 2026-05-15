@@ -8,7 +8,7 @@
  *********************/
 
 #include "OpenScreen_gen.h"
-#include "../AAT_LVGL.h"
+#include "../aat_lvgl2.h"
 
 /*********************
  *      DEFINES
